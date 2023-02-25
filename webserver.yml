@@ -6,4 +6,9 @@
       yum: 
         name: tree
         state: present
+        register: tree_store
+      when: inventory_hostname == vagrant
+     
+    - debug:
+        msg: "display value is {{tree_store}}"
       

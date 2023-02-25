@@ -1,0 +1,8 @@
+---
+- hosts: vagrant
+  become: sudo
+  tasks:
+    - name: install tree on remote server
+      yum: tree
+      state: present
+      

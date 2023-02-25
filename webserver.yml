@@ -7,7 +7,7 @@
         name: tree
         state: present
 #        register: tree_store
-      when: vagrant in inventory_hostname 
+      when: 'vagrant' in inventory_hostname 
      
     - debug:
         msg: "display value is {{inventory_hostname}}"

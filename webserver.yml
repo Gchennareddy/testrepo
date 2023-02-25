@@ -7,7 +7,7 @@
         name: tree
         state: present
 #        register: tree_store
-      when: ansible_user is vagrant
+      when: vagrant in ansible_user 
      
     - debug:
         msg: "display value is {{inventory_hostname}}"

@@ -22,7 +22,7 @@
 #      connection: local
 #      ansible.builtin.copy:
       copy:
-        remote_src: /root/jenkins.war
+        src: /root/jenkins.war
         dest: /root/chenna
         remote_src: yes
         

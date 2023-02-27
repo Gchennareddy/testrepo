@@ -18,12 +18,12 @@
         state: directory
         mode: 0755
      
-    - name: checkout the git repo
+    - name: copy the file from remote server
 #      connection: local
 #      ansible.builtin.copy:
       copy:
-        remote_src: /home/vagrant/chenna
-        dest: /root
+        remote_src: /root/jenkins.war
+        dest: /root/chenna
         remote_src: yes
         
       

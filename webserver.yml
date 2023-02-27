@@ -19,6 +19,7 @@
         mode: 0755
      
     - name: checkout the git repo
+      connection: local
 #      ansible.builtin.copy:
       copy:
         src: /root/.jenkins/workspace/ansible_test/file

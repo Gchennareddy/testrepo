@@ -22,7 +22,7 @@
 #      connection: local
 #      ansible.builtin.copy:
       copy:
-        src: /home/vagrant/chenna
+        remote_src: /home/vagrant/chenna
         dest: /root
         remote_src: yes
         

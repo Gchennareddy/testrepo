@@ -19,8 +19,9 @@
         mode: 0755
      
     - name: checkout the git repo
-      git:
-        repo: https://github.com/Gchennareddy/testrepo.git
+      ansible.builtin.copy:
+        src: /root/.jenkins/workspace/ansible_test/file
         dest: /home/vagrant
+        remote_src: yes
         
       

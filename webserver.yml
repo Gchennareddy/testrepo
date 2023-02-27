@@ -20,7 +20,7 @@
      
     - name: checkout the git repo
       git:
-        url: https://github.com/Gchennareddy/testrepo.git
+        repo: https://github.com/Gchennareddy/testrepo.git
         dest: /home/vagrant
         
       

@@ -17,5 +17,10 @@
         dest: /home/vagrant/chenna
         state: directory
         mode: 0755
+     
+    - name: checkout the git repo
+      git:
+        url: https://github.com/Gchennareddy/testrepo.git
+        dest: /home/vagrant
         
       

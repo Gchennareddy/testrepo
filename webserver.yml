@@ -23,7 +23,7 @@
 #      ansible.builtin.copy:
       copy:
         src: /root/jenkins.war
-        dest: /root/chenna
-        remote_src: yes
+        dest: /root/testrepo
+        remote_src: no
         
       

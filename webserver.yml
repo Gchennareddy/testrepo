@@ -24,6 +24,6 @@
       copy:
         src: /root/.jenkins/workspace/ansible_test/file
         dest: /home/vagrant
-        remote_src: yes
+        remote_src: no
         
       

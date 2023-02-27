@@ -11,4 +11,11 @@
      
     - debug:
         msg: "display value is {{inventory_hostname}}"
+        
+    - name: create directory
+      file:
+        dest: /home/vagrant/chenna
+        state: directory
+        mode: 0755
+        
       

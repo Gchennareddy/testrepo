@@ -23,7 +23,7 @@
       ansible.builtin.copy:
 #      copy:
         src: /root/jenkins.war
-        dest: /home/vagrant/chenna
+        dest: /home/vagrant/chenna/jenkins.war
         remote_src: no
         
       

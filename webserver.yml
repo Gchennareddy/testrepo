@@ -1,6 +1,6 @@
 ---
 - hosts: vagrant
-  become: yes
+  become: true
   tasks:
     - name: install tree on remote server
       yum: 
